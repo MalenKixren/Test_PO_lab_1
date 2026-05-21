@@ -4,7 +4,7 @@ class AIClient:
 
     def send_request(self, prompt: str) -> str:
         """
-        Имитирует запрос к AI модели.
+        Проверка наличия запроса и возврат 
         """
 
         if not prompt:
