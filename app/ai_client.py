@@ -11,4 +11,4 @@ class AIClient:
             raise ValueError("Prompt пуст")
 
        
-        return f"Результат: {prompt}"
+        return prompt
