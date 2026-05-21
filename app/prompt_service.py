@@ -4,7 +4,7 @@ class PromptService:
 
     def build_prompt(self, user_input: str) -> str:
         """
-        Формирует prompt для AI модели.
+        Формирует prompt для языковойй модели.
         """
 
         if not user_input:
