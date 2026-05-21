@@ -1,4 +1,4 @@
-# Имитация клиента языковой модели
+
 
 class AIClient:
 
@@ -10,5 +10,5 @@ class AIClient:
         if not prompt:
             raise ValueError("Prompt пуст")
 
-        # Имитация ответа модели
-        return f"AI RESPONSE: {prompt}"
+       
+        return f"Результат: {prompt}"
