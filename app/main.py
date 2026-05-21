@@ -20,7 +20,7 @@ def main():
 
     response = scenario_service.execute_scenario(user_input)
 
-    print("\nОтвет модели:")
+    print("\nИтоговый сформированный промпт:")
     print(response)
 
     print("\nИстория:")
