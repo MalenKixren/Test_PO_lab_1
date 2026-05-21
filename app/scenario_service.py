@@ -21,9 +21,9 @@ class ScenarioService:
     def execute_scenario(self, user_input: str) -> str:
         """
         Выполняет полный сценарий:
-        1. Формирует prompt
-        2. Отправляет в AI
-        3. Сохраняет историю
+        1. Принимает запрос
+        2. Форммирует промпт и возвращает
+        3. Сохраняет в историю
         """
 
         prompt = self.prompt_service.build_prompt(user_input)
